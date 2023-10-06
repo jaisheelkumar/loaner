@@ -12,15 +12,19 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="End date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="laptop" label="Item type" max_length="40" name="item_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cmdb_ci_mobile_device" label="Item type" max_length="40" name="item_type" type="string">
             <choice>
-                <element inactive="true" inactive_on_update="true" label="laptop" sequence="0" value="cmdb_ci_computer"/>
-                <element inactive_on_update="false" label="Mobile phone" sequence="0" value="cmdb_ci_mobile_device"/>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="cmdb_ci_computer"/>
+                <element inactive_on_update="false" label="Mobile phone" sequence="1" value="cmdb_ci_mobile_device"/>
                 <element inactive_on_update="false" label="Projector" sequence="2" value="cmdb_ci_projector"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Overdue reminder" max_length="40" name="last_overdue_reminder" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Overdue Count" max_length="40" name="overdue_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pick up remainder." max_length="40" name="pick_up_reminder" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Return reminder" max_length="40" name="return_reminder" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Start date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
     </element>
 </database>

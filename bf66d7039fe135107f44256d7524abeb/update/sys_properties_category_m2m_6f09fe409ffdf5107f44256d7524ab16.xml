@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Loaner Request">ccf7fe409ffdf5107f44256d7524ab0f</category>
+        <order>100</order>
+        <property display_value="x_cdltd_loaner_req.pickup.leadtime" name="x_cdltd_loaner_req.pickup.leadtime">f2183e409ffdf5107f44256d7524ab83</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 21:34:56</sys_created_on>
+        <sys_id>6f09fe409ffdf5107f44256d7524ab16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_loaner_req.pickup.leadtime.Loaner Request</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">bf66d7039fe135107f44256d7524abeb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">bf66d7039fe135107f44256d7524abeb</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_6f09fe409ffdf5107f44256d7524ab16</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 21:34:56</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

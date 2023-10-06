@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Loaner Request">bf66d7039fe135107f44256d7524abeb</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 02:14:35</sys_created_on>
+        <sys_id>1419f3009ff139107f44256d7524ab4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: properties</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">bf66d7039fe135107f44256d7524abeb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">bf66d7039fe135107f44256d7524abeb</sys_scope>
+        <sys_update_name>sys_scope_privilege_1419f3009ff139107f44256d7524ab4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 02:14:35</sys_updated_on>
+        <target_name>Glide API: properties</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>
