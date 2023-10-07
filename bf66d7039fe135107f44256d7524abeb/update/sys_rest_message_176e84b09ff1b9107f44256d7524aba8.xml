@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>Retrive latitude and longitude from Geocode.farm</description>
+        <name>Get lat Long</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://www.geocode.farm/v3/xml/forward/</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 17:06:09</sys_created_on>
+        <sys_id>176e84b09ff1b9107f44256d7524aba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get lat Long</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">bf66d7039fe135107f44256d7524abeb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">bf66d7039fe135107f44256d7524abeb</sys_scope>
+        <sys_update_name>sys_rest_message_176e84b09ff1b9107f44256d7524aba8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 17:06:09</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>
